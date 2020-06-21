@@ -1,5 +1,5 @@
 {
-    "name": "zedu/iws-laravel-graphql-login",
+    "name": "zedu/iws-graphql-login",
     "description": "Laravel Graphql Login for IWS with Lighthouse and Passport",
     "type": "library",
     "require": {
