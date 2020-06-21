@@ -25,7 +25,7 @@ Then
 
 ## Credits
 
-- Fork and based from: [Jose Luis Fonseca](https://github.com/joselfonseca/lighthouse-graphql-passport-auth) Repository, Thank you
+- Forked and based from: [Jose Luis Fonseca](https://github.com/joselfonseca/lighthouse-graphql-passport-auth) Repository, Thank you
 
 ## License
 
