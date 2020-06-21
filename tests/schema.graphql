@@ -1,0 +1,14 @@
+type User @model(class: "Zedu\\IwsGraphqlLogin\\Tests\\User"){
+    id: ID!
+    name: String!
+    email: String!
+}
+
+type Query {
+    me: User @auth(guard: "api")
+    loggedInUserViaGuardForTest: User @field(resolver: "Zedu\\IwsGraphqlLogin\\Tests\\LoggedInUser@resolve") @guard(with: ["api"])
+}
+
+type Mutation {
+    createUser: User @create(model: "Zedu\\IwsGraphqlLogin\\Tests\\User")
+}

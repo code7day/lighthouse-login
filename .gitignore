@@ -1,0 +1,10 @@
+.vagrant/
+/vendor
+/node_modules
+composer.lock
+/build/
+.idea/*
+.DS_Store
+composer_back.jscsrc
+/.phpunit.result.cache
+/git_bak
